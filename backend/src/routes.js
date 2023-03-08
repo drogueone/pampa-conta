@@ -12,8 +12,7 @@ router.get("/expense", expenseController.getAllExpenses)
 
 router.get("/expense/:id", expenseController.getExpense)
 
-router.post("/expense/:id", expenseController.postExpense)
-router.post("/expense", (request, response) => {response.send("You need to tell me the ID!")})
+router.post("/expense/", expenseController.postExpense)
 
 router.put("/expense/:id", expenseController.putExpense)
 router.put("/expense", (request, response) => {response.send("I can't update nothing without and ID!")})
