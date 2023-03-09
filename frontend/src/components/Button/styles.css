@@ -1,0 +1,51 @@
+.primary-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+    
+    width: 100%;
+    max-width: 200px;
+    height: 42px;
+    
+    background: #2469CA;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: ease-out 0.1s;
+}
+
+.primary-button:hover {
+    background: #1853a5;
+}
+
+.secondary-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+    
+    width: 100%;
+    max-width: 200px;
+    height: 42px;
+    
+    background: #F1F4F8;
+    color: #848C96;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: ease-out 0.1s;
+}
+
+.secondary-button:hover {
+    background: #e2e5eb;
+}
